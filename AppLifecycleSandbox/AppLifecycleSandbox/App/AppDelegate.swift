@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let time = Date().formattedDate()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//        print("[\(time)]: didFinishLaunchingWithOptions -> Application launched")
+        print("[\(time)]: didFinishLaunchingWithOptions -> Application launched")
         return true
     }
     
