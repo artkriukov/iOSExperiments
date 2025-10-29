@@ -1,3 +1,3 @@
 # Это база UIKit
 
-[HitTest](docs/HitTest.md)
+[HitTest](/UIKit/docs/HitTest/HitTest.md)
