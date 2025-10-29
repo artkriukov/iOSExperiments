@@ -21,7 +21,7 @@
 - Если условие удовлетворяет текущему положению вещей, когда вы билдите, препроцессор оставляет этот Swift-код.
 - Если не удовлетворяет — вырезает, будто ничего и не было.
 
-<img src="img/preprocessor.png" alt="preprocessor" width="700" height="300">
+<img src="img/preprocessor.png" alt="preprocessor" width="900" height="400">
 
 На этом задача препроцессора заканчивается. 
 
@@ -31,7 +31,7 @@
 
 Результат работы компилятора — Assembly-код. 
 
-<img src="img/compil.png" alt="compil" width="700" height="300">
+<img src="img/compil.png" alt="compil" width="900" height="400">
 
 #### Что происходит внутри компилятора?
 
@@ -41,7 +41,7 @@
 
 Когда мы говорим об оптимизациях на этапе компиляции, то подразумеваем оптимизации, которые происходят в момент компиляции intermediate языка. И происходят они вот здесь:
 
-<img src="img/compile-optimize.png" alt="compil" width="700" height="300">
+<img src="img/compile-optimize.png" alt="compil" width="900" height="400">
 
 #### Появление Executable binary
 
@@ -49,12 +49,12 @@
 
 И вот уже Assembler даёт нам тот самый машинный код, о котором мы говорили в начале. Теперь этот машинный код попадает в [статический линкер](04_Linking.md)
 
-<img src="img/compile-linker.png" alt="compile-linker" width="700" height="300">
+<img src="img/compile-linker.png" alt="compile-linker" width="900" height="400">
 
 Помимо нашего машинного кода туда попадают и статические, и динамические библиотеки.
 
-<img src="img/static-dynmayc-compile.png" alt="compile-linker" width="700" height="300">
+<img src="img/static-dynmayc-compile.png" alt="compile-linker" width="900" height="400">
 
 И в этот момент как раз и происходит создание того самого Executable binary.
 
-<img src="img/compele-binary.png" alt="compile-linker" width="700" height="300">
+<img src="img/compele-binary.png" alt="compile-linker" width="900" height="400">
